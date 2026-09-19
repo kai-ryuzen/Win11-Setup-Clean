@@ -1,0 +1,68 @@
+{
+  "642854b5-88b4-4c40-b256-e035532109df": {
+    "id": "642854b5-88b4-4c40-b256-e035532109df",
+    "name": "Transparent Zen",
+    "description": "Make the Zen Browser's tab background transparent, get smooth animations and more. Enable  features in mod settings and visit the homepage below to learn more about the features. 👇",
+    "homepage": "https://www.sameerasw.com/zen",
+    "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/642854b5-88b4-4c40-b256-e035532109df/chrome.css",
+    "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/642854b5-88b4-4c40-b256-e035532109df/readme.md",
+    "image": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/642854b5-88b4-4c40-b256-e035532109df/image.png",
+    "author": "sameerasw",
+    "version": "1.17.16",
+    "tags": [],
+    "createdAt": "2025-02-04",
+    "updatedAt": "2026-03-11",
+    "preferences": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/642854b5-88b4-4c40-b256-e035532109df/preferences.json",
+    "enabled": true
+  },
+  "d868eaf4-cefc-4f41-8f1c-1f603726d2fa": {
+    "id": "d868eaf4-cefc-4f41-8f1c-1f603726d2fa",
+    "name": "Tab Text Size",
+    "description": "Change tab, folder, and workspace text size",
+    "homepage": "https://github.com/ajkuftic/Zen-TabTextSize",
+    "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/d868eaf4-cefc-4f41-8f1c-1f603726d2fa/chrome.css",
+    "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/d868eaf4-cefc-4f41-8f1c-1f603726d2fa/readme.md",
+    "image": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/d868eaf4-cefc-4f41-8f1c-1f603726d2fa/image.png",
+    "author": "ajkuftic",
+    "version": "1.1.0",
+    "tags": [],
+    "createdAt": "2024-12-16",
+    "updatedAt": "2025-11-06",
+    "preferences": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/d868eaf4-cefc-4f41-8f1c-1f603726d2fa/preferences.json",
+    "enabled": true
+  },
+  "ad97bb70-0066-4e42-9b5f-173a5e42c6fc": {
+    "id": "ad97bb70-0066-4e42-9b5f-173a5e42c6fc",
+    "name": "SuperPins",
+    "description": "This Zen Mod enhances pinned tabs/Essentials, by making some UI/UX changes.",
+    "homepage": "https://github.com/CosmoCreeper/Zen-Themes/tree/main/SuperPins",
+    "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/ad97bb70-0066-4e42-9b5f-173a5e42c6fc/chrome.css",
+    "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/ad97bb70-0066-4e42-9b5f-173a5e42c6fc/readme.md",
+    "image": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/ad97bb70-0066-4e42-9b5f-173a5e42c6fc/image.png",
+    "author": "CosmoCreeper",
+    "version": "1.7.0",
+    "preferences": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/ad97bb70-0066-4e42-9b5f-173a5e42c6fc/preferences.json",
+    "tags": [
+      "tabs"
+    ],
+    "createdAt": "2024-08-28",
+    "updatedAt": "2026-01-28",
+    "enabled": true
+  },
+  "e122b5d9-d385-4bf8-9971-e137809097d0": {
+    "id": "e122b5d9-d385-4bf8-9971-e137809097d0",
+    "name": "No Top Sites",
+    "description": "Annoyed with top sites that appear when you open the URL bar? With this mod, you can now hide them!",
+    "homepage": "https://github.com/Ivaon/zen-theme/tree/main/NoTopSites",
+    "style": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/e122b5d9-d385-4bf8-9971-e137809097d0/chrome.css",
+    "readme": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/e122b5d9-d385-4bf8-9971-e137809097d0/readme.md",
+    "image": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/e122b5d9-d385-4bf8-9971-e137809097d0/image.png",
+    "author": "Ivaon",
+    "version": "1.1.0",
+    "tags": [],
+    "createdAt": "2025-10-21",
+    "updatedAt": "2026-01-26",
+    "preferences": "https://raw.githubusercontent.com/zen-browser/theme-store/main/themes/e122b5d9-d385-4bf8-9971-e137809097d0/preferences.json",
+    "enabled": true
+  }
+}
