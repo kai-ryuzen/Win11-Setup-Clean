@@ -8,3 +8,4 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 |Component           |Tool Name            |Reference Link                                                    |
 |:-------------------|:--------------------|:-----------------------------------------------------------------|
 | Browser            | Zen                 | [Zen Browser](./Zen-Browser)                                     |
+| Dock               | MyDockFinder        | [MyDockFinder](./MyDockFinder)                                   |
