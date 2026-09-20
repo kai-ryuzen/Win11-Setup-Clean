@@ -31,13 +31,13 @@
     {
         "defaults": 
         {
-            "colorScheme": "Catppuccin Mocha",
+            "colorScheme": "Catppuccin Mocha\u2011Glass",
             "font": 
             {
                 "face": "JetBrainsMono Nerd Font",
                 "size": 11
             },
-            "opacity": 75,
+            "opacity": 30,
             "useAcrylic": true
         },
         "list": 
@@ -65,7 +65,7 @@
     "schemes": 
     [
         {
-            "background": "#1E1E2E",
+            "background": "#000000",
             "black": "#45475A",
             "blue": "#89B4FA",
             "brightBlack": "#585B70",
@@ -80,7 +80,7 @@
             "cyan": "#94E2D5",
             "foreground": "#CDD6F4",
             "green": "#A6E3A1",
-            "name": "Catppuccin Mocha",
+            "name": "Catppuccin Mocha\u2011Glass",
             "purple": "#F5C2E7",
             "red": "#F38BA8",
             "selectionBackground": "#585B70",
