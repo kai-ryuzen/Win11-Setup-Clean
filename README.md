@@ -19,6 +19,6 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 # Fonts
 |Font                  | Link                                                                                   |
 |:---------------------|:---------------------------------------------------------------------------------------|
-|Nerd | [Download](./https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip)        |                                         |
+|Nerd | [Download](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip)          | 
 
   
