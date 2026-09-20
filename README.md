@@ -10,5 +10,6 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 | Browser              | Zen                 | [Zen Browser](./Zen-Browser)                                     |
 | Dock                 | MyDockFinder        | [MyDockFinder](./MyDockFinder)                                   |
 | Shortcut & Automation| AutoHotKey          | [AutoHotKey](./AutoHotKey)                                       |
-| Windows Customization| Windhawk            | [Windhawk](.Windhawk)                                            |
- 
+| Windows Customization| Windhawk            | [Windhawk](./Windhawk)                                           |
+| Terminal             | Terminal            | [Terminal](./Terminal)                                           |
+  
