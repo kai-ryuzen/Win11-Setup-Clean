@@ -1,0 +1,184 @@
+StartMenu Styler Settings:
+Copy Paste in texual mode:
+
+theme: ''
+disableNewStartMenuLayout: ''
+styleConstants:
+  - PurpleGlass=<AcrylicBrush TintColor="{ThemeResource CardStrokeColorDefaultSolid}" FallbackColor="{ThemeResource CardStrokeColorDefaultSolid}" TintOpacity="0" TintLuminosityOpacity=".05" Opacity="1"/>
+  - DeepPanel=<AcrylicBrush TintColor="{ThemeResource CardStrokeColorDefaultSolid}" FallbackColor="{ThemeResource CardStrokeColorDefaultSolid}" TintOpacity="0" TintLuminosityOpacity=".05" Opacity="1"/>
+  - SoftPanel=<WindhawkBlur BlurAmount="20" TintColor="#6E7D2CB6"/>
+  - HoverGlass=<WindhawkBlur BlurAmount="18" TintColor="#26FFFFFF"/>
+  - WhiteStroke=<SolidColorBrush Color="#55FFFFFF"/>
+  - SoftStroke=<SolidColorBrush Color="#33FFFFFF"/>
+  - WhiteText=<SolidColorBrush Color="#FFFFFFFF"/>
+  - SearchGlass=<WindhawkBlur BlurAmount="18" TintColor="#35000000"/>
+controlStyles:
+  - target: Grid#FrameRoot
+    styles:
+      - MaxHeight=560
+      - MinWidth=760
+      - MaxWidth=860
+  - target: Border#StartDropShadow
+    styles:
+      - CornerRadius=14
+  - target: Border#AcrylicBorder
+    styles:
+      - Background:=$PurpleGlass
+      - BorderBrush:=$WhiteStroke
+      - BorderThickness=1
+      - CornerRadius=14
+  - target: Border#AcrylicOverlay
+    styles:
+      - Visibility=Collapsed
+  - target: Border#LayerBorder
+    styles:
+      - Background:=<AcrylicBrush TintColor="{ThemeResource CardStrokeColorDefaultSolid}" FallbackColor="{ThemeResource CardStrokeColorDefaultSolid}" TintOpacity="0" TintLuminosityOpacity=".05" Opacity="1"/>
+      - CornerRadius=14
+  - target: Border#BorderElement
+    styles:
+      - Background:=$DeepPanel
+      - BorderBrush:=$SoftStroke
+      - BorderThickness=1
+      - CornerRadius=10
+  - target: TextBlock
+    styles:
+      - Foreground:=$WhiteText
+  - target: StartDocked.SearchBoxToggleButton
+    styles:
+      - Visibility=Visible
+      - Height=38
+      - Margin=28,14,28,0
+      - CornerRadius=20
+      - Canvas.ZIndex=10
+  - target: StartDocked.SearchBoxToggleButton#StartMenuSearchBox
+    styles:
+      - Visibility=Visible
+      - Height=38
+      - Margin=28,14,28,0
+      - CornerRadius=20
+      - Canvas.ZIndex=10
+  - target: StartMenu.SearchBoxToggleButton
+    styles:
+      - Visibility=Visible
+      - Height=38
+      - Margin=28,14,28,0
+      - CornerRadius=20
+      - Canvas.ZIndex=10
+  - target: StartDocked.SearchBoxToggleButton > Grid > Border
+    styles:
+      - Background:=$SearchGlass
+      - BorderBrush:=$SoftStroke
+      - BorderThickness=1
+      - CornerRadius=20
+  - target: StartMenu.SearchBoxToggleButton > Grid > Border
+    styles:
+      - Background:=$SearchGlass
+      - BorderBrush:=$SoftStroke
+      - BorderThickness=1
+      - CornerRadius=20
+  - target: Grid#SideBySidePinnedWrapper
+    styles:
+      - ColumnDefinitions:=<ColumnDefinitionCollection><ColumnDefinition Width="330*"/><ColumnDefinition Width="500*"/></ColumnDefinitionCollection>
+      - Margin=10,8,10,8
+  - target: GridView#AllAppsGrid > Border > Grid#SideBySidePinnedWrapper > ScrollViewer#ScrollViewer
+    styles:
+      - Grid.Column=0
+      - Margin=0,0,0,0
+      - Background:=$DeepPanel
+      - BorderBrush:=$SoftStroke
+      - BorderThickness=1
+      - CornerRadius=10
+  - target: ScrollViewer#SideBySidePinnedScrollViewer
+    styles:
+      - Grid.Column=1
+      - Margin=10,0,0,0
+      - Background:=<WindhawkBlur BlurAmount="22" TintColor="#4F7E1CAE"/>
+      - BorderBrush:=<SolidColorBrush Color="#22FFFFFF"/>
+      - BorderThickness=1
+      - CornerRadius=10
+  - target: Grid#SideBySidePinnedWrapper > ScrollViewer > Border#Root > Grid > ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid
+    styles:
+      - Margin=26,10,26,14
+  - target: Grid#AllListHeading > TextBlock#AllListHeadingText
+    styles:
+      - Margin=34,8,12,8
+      - FontWeight=SemiBold
+      - FontSize=13
+  - target: TextBlock#PinnedListHeaderText
+    styles:
+      - Margin=18,8,0,12
+      - FontWeight=SemiBold
+      - FontSize=13
+  - target: Grid#NavPanePlaceholder
+    styles:
+      - Margin=24,0,24,0
+  - target: StartDocked.NavigationPaneView#UserControl > Grid#RootPanel
+    styles:
+      - FlowDirection=1
+  - target: StartDocked.PowerOptionsView#PowerButton
+    styles:
+      - FlowDirection=0
+  - target: ItemsStackPanel > ListViewItem
+    styles:
+      - FlowDirection=0
+  - target: GridViewItem
+    styles:
+      - CornerRadius=8
+      - Margin=2
+  - target: ListViewItem
+    styles:
+      - CornerRadius=8
+      - Margin=2,1,2,1
+  - target: Border#ContentBorder@CommonStates
+    styles:
+      - Background@PointerOver:=$HoverGlass
+      - Background@Pressed:=<WindhawkBlur BlurAmount="18" TintColor="#35FFFFFF"/>
+      - BorderBrush@PointerOver:=<SolidColorBrush Color="#44FFFFFF"/>
+      - BorderThickness=1
+      - CornerRadius=8
+  - target: Button#ShowAllAppsButton
+    styles:
+      - Visibility=Collapsed
+  - target: Button#CloseAllAppsButton
+    styles:
+      - Visibility=Collapsed
+  - target: Windows.UI.Xaml.Controls.Grid#TopLevelSuggestionsListHeader
+    styles:
+      - Visibility=Collapsed
+      - Height=0
+  - target: Windows.UI.Xaml.Controls.Grid#NoTopLevelSuggestionsText
+    styles:
+      - Visibility=Collapsed
+      - Height=0
+  - target: Windows.UI.Xaml.Controls.Grid#TopLevelSuggestionsContainer
+    styles:
+      - Visibility=Collapsed
+      - Height=0
+  - target: Windows.UI.Xaml.Controls.Grid#ShowMoreSuggestions
+    styles:
+      - Visibility=Collapsed
+      - Height=0
+  - target: StartMenu.PinnedList
+    styles:
+      - Height=504
+      - Margin=0,0,0,0
+  - target: StartDocked.AppListView#NavigationPanePlacesListView > Windows.UI.Xaml.Controls.Border
+    styles:
+      - Background:=<WindhawkBlur BlurAmount="18" TintColor="#30100025"/>
+      - CornerRadius=10
+      - BorderBrush:=<SolidColorBrush Color="#22FFFFFF"/>
+      - BorderThickness=1
+  - target: MenuFlyoutPresenter > Border
+    styles:
+      - Background:=$PurpleGlass
+      - BorderBrush:=$WhiteStroke
+      - BorderThickness=1
+      - CornerRadius=10
+themeResourceVariables:
+  - ''
+webContentStyles:
+  - target: ''
+    styles:
+      - ''
+webContentCustomJs: ''
+Theme: TranslucentStartMenu
