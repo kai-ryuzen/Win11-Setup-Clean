@@ -16,10 +16,9 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 
 
 
-# Fonts & Cursors
-|Component             |Tool Name            |Reference Link                                                    |
-|:---------------------|:--------------------|:-----------------------------------------------------------------|
-| Font                 | Font                | [Fonts](./Fonts)                                                 |
-| Cursor               | Cursor              | [Cursors](./Cursors)                                             |
+# Fonts
+|Font                  | Link                                                                                   |
+|:---------------------|:---------------------------------------------------------------------------------------|
+|Nerd | [Download](./https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip)        |                                         |
 
   
