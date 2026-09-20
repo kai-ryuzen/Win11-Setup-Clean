@@ -1,0 +1,35 @@
+Theme: Simply Transparent with only side element
+
+Copy paste this yaml in texual mode:
+
+theme: SimplyTransparent
+styleConstants:
+  - ''
+controlStyles:
+  - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton]
+    styles:
+      - Visibility=Collapsed
+  - target: Taskbar.TaskListButton
+    styles:
+      - Visibility=Collapsed
+      - Width=0
+      - Height=0
+  - target: Taskbar.TaskListLabeledButton
+    styles:
+      - Visibility=Collapsed
+      - Width=0
+      - Height=0
+  - target: Taskbar.TaskbarFrame
+    styles:
+      - Background=Transparent
+  - target: Grid#LayoutRoot
+    styles:
+      - Background=Transparent
+  - target: Border#MainBackgroundBorder
+    styles:
+      - Background=Transparent
+      - BorderThickness=0
+themeResourceVariables:
+  - ''
+clickThroughTaskbar: 0
+xamlDiagnosticsHandling: alert
