@@ -12,4 +12,14 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 | Shortcut & Automation| AutoHotKey          | [AutoHotKey](./AutoHotKey)                                       |
 | Windows Customization| Windhawk            | [Windhawk](./Windhawk)                                           |
 | Terminal             | Terminal            | [Terminal](./Terminal)                                           |
+
+
+
+
+# Fonts & Cursors
+|Component             |Tool Name            |Reference Link                                                    |
+|:---------------------|:--------------------|:-----------------------------------------------------------------|
+| Font                 | Font                | [Fonts](./Fonts)                                                 |
+| Cursor               | Cursor              | [Cursors](./Cursors)                                             |
+
   
