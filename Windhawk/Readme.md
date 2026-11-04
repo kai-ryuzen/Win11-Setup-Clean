@@ -1,6 +1,7 @@
 # Windhawk
 It's very important component of this setup
-<img width="1491" height="661" alt="image" src="https://github.com/user-attachments/assets/95006d05-94e9-4acc-b800-795f3c21fd42" />
+<img width="1487" height="898" alt="image" src="https://github.com/user-attachments/assets/7316c549-a64a-4b91-9f35-82cb2b875f97" />
+
 
 # Better file size in explorer details
 Show folder sizes Via "Everything" integration download Everything and turn on show folder size in the settings.
