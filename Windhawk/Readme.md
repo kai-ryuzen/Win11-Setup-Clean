@@ -1,6 +1,6 @@
 # Windhawk
 It's very important component of this setup
-<img width="1487" height="898" alt="image" src="https://github.com/user-attachments/assets/7316c549-a64a-4b91-9f35-82cb2b875f97" />
+<img width="1467" height="1763" alt="image" src="https://github.com/user-attachments/assets/07d05fa1-7834-49d8-96bc-fd15bb9018be" />
 
 
 # Better file size in explorer details
